@@ -114,4 +114,8 @@ public class TravelData {
             allTrips.add(Arrays.asList(words));
         }
     }
+
+    public List<List<String>> getAllTrips() {
+        return allTrips;
+    }
 }
